@@ -1,0 +1,31 @@
+{
+  "name": "awt-content-skills",
+  "version": "1.0.0",
+  "description": "Content-Marketing-Orchestrator für AWT Finanz GmbH. Kombiniert Keyword-Recherche, Blog-Erstellung und Newsletter-Workflows durch Orchestrierung von claude-blog, seo-geo-claude-skills und marketingskills.",
+  "author": {
+    "name": "AWT Finanz GmbH",
+    "location": "Berlin"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "versicherung",
+    "finanzierung",
+    "immobilien",
+    "content-marketing",
+    "blog",
+    "newsletter",
+    "keyword-research",
+    "german",
+    "insurance",
+    "mortgage",
+    "berlin"
+  ],
+  "skills": [
+    "./skills/awt-content"
+  ],
+  "requires": [
+    "claude-blog",
+    "seo-geo-claude-skills",
+    "marketingskills"
+  ]
+}
